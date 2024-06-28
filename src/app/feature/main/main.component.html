@@ -1,0 +1,29 @@
+<section>
+  <div class="container">
+    <div id="carouselExampleControls" class="carousel slide my-4 pt-5" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/images/carousel/tea_1.png" class="d-block w-100" alt="...">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container container-sm container-position">
+    <h2 class="p-5 text-center">Ответы на часто задаваемые вопросы</h2>
+    <div class="col-lg-8 col-sm-12">
+      <div class="accordion" id="accordionFlush">
+        <answers *ngFor="let answer of answers; let i = index" [answer]="answer"></answers>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="popup" *ngIf="showPopup">
+  <div class="popup-card">
+    <h2 class="p-5 text-center">Посмотрите наши чайные коллекции</h2>
+    <a class="btn btn-primary align-self-center" routerLink="/products">Смотреть</a>
+  </div>
+</section>

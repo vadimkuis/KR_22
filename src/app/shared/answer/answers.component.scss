@@ -1,0 +1,22 @@
+.accordion-header {
+  border-radius: 10px;
+  display: block;
+  cursor: pointer;
+  position: relative;
+  margin-bottom: 16px;
+  padding: 25px;
+  background: #076BFF;
+  font-family: 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+
+.accordion-body {
+  display: none;
+  align-items: center;
+  color: #000000;
+  margin-bottom: 10px;
+}

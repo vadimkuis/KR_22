@@ -1,0 +1,11 @@
+<div class="row m-auto w-75 product-page">
+  <div class="col d-flex">
+      <img src="{{product.image}}" class="card-img-top w-50 h-50 my-5" alt="...">
+      <div class="card-body d-flex align-items-center flex-column justify-content-start">
+        <h5 class="card-title m-4">{{product.title}}</h5>
+        <p class="card-text m-3">Цена: {{product.price | currency:'руб.'}}</p>
+        <p class="card-text w-75 m-3">{{product.description}}</p>
+        <a (click)="addToOrder(product.title)" class="btn btn-primary align-self-center">Купить</a>
+    </div>
+  </div>
+</div>

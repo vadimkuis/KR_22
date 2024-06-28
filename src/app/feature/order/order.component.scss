@@ -1,0 +1,18 @@
+input.ng-invalid.ng-dirty,
+input.ng-invalid.ng-touched {
+  border-color: red;
+}
+
+.invalid-feedback {
+  display: block;
+}
+
+.thanks {
+  font-size: 75px;
+}
+
+.no-thanks {
+  color: red;
+  margin-left: 25px;
+  text-align: center;
+}
